@@ -1,0 +1,32 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background: url('0-sprite.png') no-repeat;
+}
+.i-html {
+    background-position: 0;
+    /* Position for the HTML icon in the sprite */
+}
+
+.i-css {
+    background-position: -40px;
+    /* Position for the CSS icon in the sprite */
+}
+.i-js {
+    background-position: -80px;
+    /* Position for the JavaScript icon in the sprite */
+}
